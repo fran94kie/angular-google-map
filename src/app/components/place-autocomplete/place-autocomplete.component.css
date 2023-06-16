@@ -1,0 +1,17 @@
+.search-box {
+  width: 20%;
+  margin-top: 10px;
+}
+.search-input {
+  width: 40%;
+}
+.google-map-div {
+  display: flex;
+  width: 100%;
+  > app-map-records {
+    width: 20%;
+  }
+  > app-map-display {
+    flex: 1;
+  }
+}

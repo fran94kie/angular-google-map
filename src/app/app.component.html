@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">Angular Google Map</mat-toolbar>
+<div class="container">
+  <div class="input-area">
+    <app-place-autocomplete (placeChanged)="fromValue = $event">
+    </app-place-autocomplete>
+  </div>
+  <!-- <div *ngIf="fromValue">
+    <h2>{{ fromValue.name }}</h2>
+    <img [src]="fromValue.imageURL" />
+  </div> -->
+</div>

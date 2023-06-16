@@ -1,0 +1,7 @@
+<mat-form-field appearance="outline" class="search-input">
+  <input #inputField matInput [placeholder]="placeholder" type="text" />
+</mat-form-field>
+<div class="google-map-div">
+  <app-map-records [records]="records"></app-map-records>
+  <app-map-display [searchPosition]="searchPosition"></app-map-display>
+</div>
